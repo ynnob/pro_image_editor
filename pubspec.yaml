@@ -5,7 +5,7 @@ homepage: https://github.com/hm21/pro_image_editor/
 repository: https://github.com/hm21/pro_image_editor/
 issue_tracker: https://github.com/hm21/pro_image_editor/issues/
 documentation: https://github.com/hm21/pro_image_editor/
-
+publish_to: none
 
 topics:
   - image-editor
@@ -40,7 +40,9 @@ dependencies:
   extended_image: ^8.2.0
   rounded_background_text: ^0.5.0
   colorfilter_generator: ^0.0.8
-  screenshot: ^2.3.0
+  screenshot:
+    git: 
+       url: https://github.com/SachinGanesh/screenshot.git
   vibration: ^1.8.4
   http: ^1.2.1
   emoji_picker_flutter: ^2.2.0
